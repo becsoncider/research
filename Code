@@ -1,0 +1,27 @@
+Codes 
+ 
+Functions and Methods: 
+__init__ - init is a code that helps code run smoothly, without having to re-code all the background code each time. Init helps it run more automatically 
+__str__ - str stands for string. This code helps the user experience of your code by making it nicer, and tidier. 
+def - def stands for define. This code defines what class you are using. 
+input - Input is the code used when you are asking for the user of your code to input information. 
+ 
+Statements: 
+print - Print is a code used when you wish to print something into output text. 
+Import 
+ 
+Control Structures: 
+if, else - if else is a common code that determines the result based on what the user inputs. It is essentially a true or false statement.
+If the user enters an answer that is ‘true’ the results will differ than if the user enters a code that is ‘false’ 
+while - While is a code that is used in conjunction with loop. A while loop is used to keep the code running so long as the code running is not ‘true’ 
+loop - Loop is a code syntax that makes a code repeat itself without writing it out over and over. 
+ 
+Input/Output 
+\n - \n is a code that is used to create new lines – the new lines will be displayed during user experience. 
+ 
+ 
+Miscellaneous  
+main -
+class -
+f... - This stands for an F string. An F string in code indicates that the string is formatted. Formatting the string makes it 
+tidier and easier to read. 
