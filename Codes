@@ -1,0 +1,116 @@
+Codes 
+ 
+Functions and Methods: 
+__init__ - init is a code that helps code run smoothly, without having to re-code all the background code each time. Init helps it run more automatically 
+__str__ - str stands for string. This code helps the user experience of your code by making it nicer, and tidier. 
+def - def stands for define. This code defines what class you are using. 
+input - Input is the code used when you are asking for the user of your code to input information. 
+ 
+Statements: 
+print - Print is a code used when you wish to print something into output text. 
+Import 
+ 
+Control Structures: 
+if, else - if else is a common code that determines the result based on what the user inputs. It is essentially a true or false statement.
+If the user enters an answer that is ‘true’ the results will differ than if the user enters a code that is ‘false’ 
+while - While is a code that is used in conjunction with loop. A while loop is used to keep the code running so long as the code running is not ‘true’ 
+loop - Loop is a code syntax that makes a code repeat itself without writing it out over and over. 
+ 
+Input/Output 
+\n - \n is a code that is used to create new lines – the new lines will be displayed during user experience. 
+ 
+ 
+Miscellaneous  
+main -
+class -
+f... - This stands for an F string. An F string in code indicates that the string is formatted. Formatting the string makes it tidier and easier to read. 
+ 
+Import examples: 
+import random 
+import string   
+ 
+This is an example of import in coding. This was used while coding a ticket system that generates random passwords upon request. 
+The import was needed to import random strings to generate random numbers and letters for a new password. The import part is used as it
+imports external code that already exists in python libraries.  
+ 
+Class, def, self, init examples: 
+ 
+class Ticket:  
+	def __init__(self, staff_id, name, email, problem):  
+	self.staff_id= staff_id   
+    	self.name = name 
+    	self.email = email 
+    	self.problem = problem 
+    	self.status = "Open" 
+    	self.response = "No response yet" 
+ 
+Class, def and self are all present in this block of code. Class is being used to outline in coding that we are creating a ticket. 
+In other instances, class may be used to outline that you are working with cars, and expecting different input on the make and model, or 
+dogs and expecting different input on breed and color, and along those lines. Def is being used as a means to define that we are using init for this code. 
+Init is used to help set up code. In this example, init is setting up our code, and helping it to run more automatically by creating value for this bit of code, 
+and works alongside ‘self’ to do so. In this instance, self is essentially working as a placeholder, until data is given for this ticket. Self in code helps keep 
+items separate, despite having the same coding.  
+ 
+ 
+ if, else, example: 
+
+def resolve_ticket(self):  
+	if "password change" in self.problem:  
+		 self.response = f"New password: {self.generate_new_password()}"  
+	else:  
+		self.response = "Issue has been resolved."  
+	self.status = "Closed" 
+ 
+This code was used to create new passwords for users who have requested them. It works and operates using the if,else code. As we can see in this code, 
+if the help desk request consists of ‘password change’, a new password will be automatically generated. However, if it does not, in other words, else a 
+different response will be generated and the ticket will be closed. 
+ 
+ 
+
+__str__, f, \n, self example: 
+
+def __str__(self): 
+    return (f"Ticket Number: {self.ticket_number}\n" 
+            f"Staff ID: {self.staff_id}\n" 
+            f"Name: {self.name}\n" 
+            f"Email: {self.email}\n" 
+            f"Problem: {self.problem}\n" 
+            f"Status: {self.status}\n" 
+            f"Response: {self.response}\n") 
+ 
+This block of code has examples of __str__, f, \n and self. In this code, __str__ and f are being used to define it as a string. 
+A string is essentially a line of text that stores code and information. \n in this code is used to create new lines after each string. 
+This makes it easier to read, and makes the code overall tidier. In this code, self is being used to define this current object that we are working with. 
+Self is used to distinguish different varibales and allows the code to recognise that it is this particular code we are working with.  
+ 
+ 
+input example: 
+
+staff_id = input("Enter Staff ID: ") 
+name = input("Enter Name: ") 
+email = input("Enter Email: ") 
+problem = input("Enter Problem: ") 
+ 
+This is an example of coding where input was used. As mentioned above, input is used in coding when it is required for users to input data/information. 
+In this instance, staff were required to input information about technical problems they were having, in order for the code to produce a ticket and send 
+it to help desk staff for a solution. Staff were required to input their staff ID, names, emails and a brief description of their problem. 
+ 
+ 
+loop example: 
+ 
+while True: 
+
+    print("Check if tortilla pieces are light brown and crispy" 
+    isCrispy = input("Is it crispy? (yes/no): ")  
+    if isCrispy.lower() == "yes":  
+        print("Tortilla chips are done. Leave to cool for 5 minutes and enjoy!") 
+
+        break  
+ 
+    else: 
+	print("Put the tortilla pieces back in the air fryer for 2 more minutes") 
+ 
+This is an example of a loop in coding. I re-wrote this pseudo code, which was an instructional code on how to make tortilla chips, 
+into real code for this example. Here we can see a loop. The user is instructed to check if tortilla chips are light brown and crispy, and input their answer. 
+If they are, the code will say the tortilla chips are done. If they are not, the code will say to put them back. This loop will continue with asking the user
+if the tortilla chips are brown and crispy until they answer yes, in which case the loop will be broken and the code will end.  
